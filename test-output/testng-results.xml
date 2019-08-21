@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="127711" started-at="2019-08-21T14:43:17Z" finished-at="2019-08-21T14:45:25Z">
+    <groups>
+      <group name="parallel">
+        <method signature="ApiTestSuite.starandverify()[pri:0, instance:agro.assignment.ApiTestSuite@6a4f787b]" name="starandverify" class="agro.assignment.ApiTestSuite"/>
+      </group> <!-- parallel -->
+    </groups>
+    <test name="Test" duration-ms="127711" started-at="2019-08-21T14:43:17Z" finished-at="2019-08-21T14:45:25Z">
+      <class name="agro.assignment.Setup">
+        <test-method status="PASS" signature="getInput()[pri:0, instance:agro.assignment.Setup@1a968a59]" name="getInput" duration-ms="13808" started-at="2019-08-21T20:13:17Z" finished-at="2019-08-21T20:13:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInput -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:agro.assignment.Setup@1a968a59]" name="afterSuite" is-config="true" duration-ms="2" started-at="2019-08-21T20:15:25Z" finished-at="2019-08-21T20:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:agro.assignment.gitSearch@548e7350]" name="afterTest" is-config="true" duration-ms="2188" started-at="2019-08-21T20:15:25Z" finished-at="2019-08-21T20:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- agro.assignment.Setup -->
+      <class name="agro.assignment.ApiTestSuite">
+        <test-method status="PASS" signature="setup()[pri:0, instance:agro.assignment.ApiTestSuite@6a4f787b]" name="setup" is-config="true" duration-ms="2813" started-at="2019-08-21T20:13:31Z" finished-at="2019-08-21T20:13:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createand_verify_repo()[pri:0, instance:agro.assignment.ApiTestSuite@6a4f787b]" name="createand_verify_repo" duration-ms="8530" started-at="2019-08-21T20:13:34Z" depends-on-methods="agro.assignment.Setup.getInput" finished-at="2019-08-21T20:13:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createand_verify_repo -->
+        <test-method status="PASS" signature="starandverify()[pri:0, instance:agro.assignment.ApiTestSuite@6a4f787b]" name="starandverify" duration-ms="1385" started-at="2019-08-21T20:13:42Z" depends-on-methods="agro.assignment.ApiTestSuite.createand_verify_repo" finished-at="2019-08-21T20:13:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starandverify -->
+      </class> <!-- agro.assignment.ApiTestSuite -->
+      <class name="agro.assignment.gitSearch">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:agro.assignment.gitSearch@548e7350]" name="beforeTest" is-config="true" duration-ms="9418" started-at="2019-08-21T20:13:31Z" finished-at="2019-08-21T20:13:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="SearchandPlaceOrder()[pri:0, instance:agro.assignment.gitSearch@548e7350]" name="SearchandPlaceOrder" duration-ms="104412" started-at="2019-08-21T20:13:40Z" depends-on-methods="agro.assignment.Setup.getInput" finished-at="2019-08-21T20:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchandPlaceOrder -->
+      </class> <!-- agro.assignment.gitSearch -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
